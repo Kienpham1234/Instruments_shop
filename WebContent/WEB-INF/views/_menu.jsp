@@ -9,5 +9,11 @@
    <a href="${pageContext.request.contextPath}/userInfo">My Account Info</a>
    |
    <a href="${pageContext.request.contextPath}/login">Login</a>
+   |
+   <a href="${pageContext.request.contextPath}/register">Sign up</a>  
+   |
+   <a href="${pageContext.request.contextPath}/EmailForm.jsp">Contact us</a> 
+
+   
     
 </div>  

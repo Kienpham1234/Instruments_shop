@@ -13,7 +13,14 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="C:/Users/Bryce Walker/Desktop/email/Jars-20200806/Jars-20200806/activation.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Bryce Walker/Desktop/email/Jars-20200806/Jars-20200806/mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/trown/Documents/School/Lambton/Courses/Term4/CSD_4464_1-ProgrammingJavaEE/Term_Project/CodeBase/Jars/important jar/javax.servlet.jsp.jstl-1.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/trown/Documents/School/Lambton/Courses/Term4/CSD_4464_1-ProgrammingJavaEE/Term_Project/CodeBase/Jars/important jar/javax.servlet.jsp.jstl-api-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/trown/Documents/School/Lambton/Courses/Term4/CSD_4464_1-ProgrammingJavaEE/Term_Project/CodeBase/Jars/important jar/javax.servlet-3.0.0.v201103241009.jar"/>
+	<classpathentry kind="lib" path="C:/Users/trown/Documents/School/Lambton/Courses/Term4/CSD_4464_1-ProgrammingJavaEE/Term_Project/CodeBase/Jars/important jar/jsp-api-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/trown/Documents/School/Lambton/Courses/Term4/CSD_4464_1-ProgrammingJavaEE/Term_Project/CodeBase/Jars/important jar/jstl-api-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/trown/Documents/School/Lambton/Courses/Term4/CSD_4464_1-ProgrammingJavaEE/Term_Project/CodeBase/Jars/important jar/mysql-connector-java-8.0.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/trown/Documents/School/Lambton/Courses/Term4/CSD_4464_1-ProgrammingJavaEE/Term_Project/CodeBase/Jars/important jar/servlet-api-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/trown/Documents/School/Lambton/Courses/Term4/CSD_4464_1-ProgrammingJavaEE/Term_Project/CodeBase/Jars/activation.jar"/>
+	<classpathentry kind="lib" path="C:/Users/trown/Documents/School/Lambton/Courses/Term4/CSD_4464_1-ProgrammingJavaEE/Term_Project/CodeBase/Jars/mail.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

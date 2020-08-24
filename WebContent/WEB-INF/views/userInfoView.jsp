@@ -16,6 +16,8 @@
     <br />
     Gender: ${user.gender } <br />
  
+ 	Credentials: ${user.credentials }<br>	<!--Added by Nathan -->
+ 	
     <jsp:include page="_footer.jsp"></jsp:include>
  
  </body>

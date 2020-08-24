@@ -1,5 +1,7 @@
 package net.javaguides.Houseofsound1.beans;
 
+import com.mysql.cj.x.protobuf.MysqlxDatatypes.Scalar.String;
+
 public class UserAccount {
 	public static final String GENDER_MALE ="M";
 	   public static final String GENDER_FEMALE = "F";
@@ -7,6 +9,7 @@ public class UserAccount {
 	   private String userName;
 	   private String gender;
 	   private String password;
+	   private String credentials; /*Added by Nathan*/
 	    
 	 
 	   public UserAccount() {
@@ -36,4 +39,16 @@ public class UserAccount {
 	   public void setPassword(String password) {
 	       this.password = password;
 	   }
+
+   /*Added by Nathan*/
+   /*Getter and Setter for Credentials*/
+		public String getCredentials() {
+			return credentials;
+		}
+	
+		public void setCredentials(String credentials) {
+			this.credentials = credentials;
+		}
+	   
+	   
 }

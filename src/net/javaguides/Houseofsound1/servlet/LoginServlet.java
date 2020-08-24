@@ -95,7 +95,18 @@ public class LoginServlet extends HttpServlet {
                 MyUtils.deleteUserCookie(response);
             }
  
-            response.sendRedirect(request.getContextPath() + "/productList");
+            
+            /*Added by Nathan*/
+            //Determine if the user is a customer or the administrator, then send them to the appropriate page
+            
+            if(user.credentials == "user")
+            {
+            	response.sendRedirect(request.getContextPath() + "/CustomerProductList");
+            }
+            else
+            {            	
+            	response.sendRedirect(request.getContextPath() + "/productList");
+            }
         }
     }
 

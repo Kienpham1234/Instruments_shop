@@ -53,6 +53,7 @@ private static final long serialVersionUID = 1L;
         user.setUserName(username);
         user.setGender(gender);
         user.setPassword(password);
+        user.setCredentials("user");
 
         
         try {

@@ -7,8 +7,8 @@ import net.javaguides.Houseofsound1.beans.UserAccount;
 public class UserDao {
 	public int registerUser(UserAccount user_account) throws ClassNotFoundException {
         String INSERT_USERS_SQL = "INSERT INTO user_account" +
-            "  (user_name, gender, password) VALUES " +
-            " (?, ?, ?);";
+            "  (user_name, gender, password, credentials) VALUES " +
+            " (?, ?, ?,'user');";/*Edited By Nathan*/
 
         int result = 0;
 
@@ -24,6 +24,7 @@ public class UserDao {
             preparedStatement.setString(1, user_account.getUserName());
             preparedStatement.setString(2, user_account.getGender());
             preparedStatement.setString(3, user_account.getPassword());
+            preparedStatement.setString(3, user_account.getCredentials());/*Added by Nathan*/
 
 
             System.out.println(preparedStatement);
